@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactformulier</title>
+    <title>Contact Form</title>
 </head>
 <body>
-    <h1>Contact Form</h1>
+    <h1>Contact Me</h1>
     <form action="formHandler.php" method="POST">
-        Name:<br><input type="text" required><br><br>
-        Email:<br><input type="email" required><br><br>
-        Message:<br><input type="text" required><br><br>
-        <input type="submit" name="Verzenden" value="Send">
+        <label>Please provide your name:</label><br>
+        <input type="text" name="name" required><br><br>
+        
+        <label>Give Email now!!!!:</label><br>
+        <input type="email" name="email" required><br><br>
+        
+        <label>What you want!?:</label><br>
+        <textarea name="message" required></textarea><br><br>
+        
+        <button type="submit">Clickbait button</button>
     </form>
 </body>
 </html>
